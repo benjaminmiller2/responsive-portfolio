@@ -1,0 +1,340 @@
+body{
+    background: url(../images/retina_dust.png);
+    background-color:white;
+    position: relative;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+    font-size: 1.25em;
+}
+p{
+    font-family: 'Times New Roman', Times, serif; 
+    color: black;  
+    font-size: 1em; 
+}
+
+.header-wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+width: 960px;
+margin-right: auto;
+margin-left: auto;
+border: 1px outset maroon;
+
+}
+.name-box{
+color: white;
+background-color:maroon;
+padding: 20px;
+margin-bottom: 0px;
+}
+.nav-box{
+display: flex;
+justify-content: center;
+margin-right: 10px;
+}
+.nav-box1{
+    display: flex;
+    justify-content: center;
+    }
+.button{
+    padding: 10px 20px;
+}
+
+a:link{
+text-decoration: none;
+color: maroon;
+font-size: 16px;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+a:visited{color: maroon}
+
+.section-wrapper{
+display: flex;
+justify-content: space-between;
+width: 960px;
+padding-top: 20px;
+padding-bottom: 10px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 100px;
+}
+.article-box1{
+width: 650px;
+background-color: white;
+border: 1px outset maroon;
+
+}
+
+.article-box2{
+width: 270px; 
+text-align: center;
+background-color: white;
+height: 150px;
+border: 1px outset maroon;
+}
+.grid{
+    width: 640px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-columns: 300px 300px;
+    padding-bottom: 10px;
+    
+}
+
+.footer-wrapper{
+background-color: maroon;
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed;
+width: 100%;
+bottom: 0;
+font-size: .75em;
+}
+
+.image{
+border: 1px outset maroon;
+float: left;
+width: 200px;
+height: 200px;
+margin-right: 10px;
+
+}
+.link-box{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    }
+
+.heading{
+    margin:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+}
+hr{
+    width:100%;
+    height: 2px;
+    background-color: maroon;
+}
+.text{
+    padding: 10px;
+}
+.box{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border: 1px maroon;
+    margin: 5px;
+}
+.image1{
+    border: 1px maroon;
+    height: 200px;
+    width: 300px;
+    }
+.image-label{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+.form{
+    padding: 10px;
+    color: maroon;
+}
+
+@media (max-width: 960px){
+    .header-wrapper{
+        width: 780px;
+    }
+    .section-wrapper{
+        width: 780px;
+    }
+    .article-box1{
+        width: 450px;
+        display: block;
+    }
+    .image{
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+        float: none;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+    .grid{
+        width: 400px;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-gap: 20px;
+        grid-template-columns: 300px ;
+        padding-bottom: 10px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .box{
+        position: relative;
+        height: 200px;
+        width: 300px;
+        border: 1px maroon;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .header-wrapper{
+        width: 650px;
+    }
+    .section-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 650px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 100px;
+        }
+
+    .article-box1{
+        width: 650px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .article-box2{
+        width: 650px; 
+        text-align:start;
+        background-color: white;
+        height: 150px;
+        border: 1px outset maroon;
+        }
+    .nav-box1{
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+        }
+    .image{
+        border: 1px outset maroon;
+        float: left;
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    .grid{
+        width: 640px;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-gap: 20px;
+        grid-template-columns: 300px ;
+        padding-bottom: 10px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .box{
+        position: relative;
+        height: 200px;
+        width: 300px;
+        border: 1px maroon;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 640px){
+    .header-wrapper{
+        width: 620px;
+        display: block;
+        justify-content: center;
+    }
+    .name-box{
+        color: white;
+        background-color:maroon;
+        padding: 20px;
+        margin-bottom: 0px;
+        text-align: center;
+        }
+        .nav-box{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 10px;
+        }
+    .section-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 620px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 100px;
+        }
+
+    .article-box1{
+        width: 620px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .article-box2{
+        width: 620px; 
+        text-align:start;
+        background-color: white;
+        height: 150px;
+        border: 1px outset maroon;
+        }
+    .nav-box1{
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+        }
+    .image{
+            width: 300px;
+            height: 300px;
+            float: none;
+            margin-left: 140px;
+            margin-bottom: 10px;
+            margin-top: auto;
+        }
+    .grid{
+        width: 610px;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-gap: 20px;
+        grid-template-columns: 600px ;
+        padding-bottom: 10px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .box{
+        position: relative;
+        height: 200px;
+        width: 300px;
+        border: 1px maroon;
+        margin: 10px;
+    }
+}
